@@ -48,8 +48,8 @@ public class LoginActivity extends AppCompatActivity {
         et_password = findViewById(R.id.editTextText_Password);
         b_login = findViewById(R.id.Button_Login);
         tv_register = findViewById(R.id.TextView_Register);
-        tv_invalid = findViewById(R.id.TextView_InvalidCredentials);
-        is_Consultant = findViewById(R.id.isConsultant);
+//        tv_invalid = findViewById(R.id.TextView_InvalidCredentials);
+//        is_Consultant = findViewById(R.id.isConsultant);
 
 
 

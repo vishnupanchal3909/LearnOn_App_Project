@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.spacECE.spaceceedu.R;
@@ -62,9 +63,9 @@ public class RegistrationFinal extends AppCompatActivity {
         ev_re_password =findViewById(R.id.UserRegistration_editTextText_Repassword);
         ev_name=findViewById(R.id.UserRegistration_editTextText_Name);
         ev_phoneNo=findViewById(R.id.UserRegistration_editTextText_PhoneNumber);
-        toolbar =  findViewById(R.id.UserRegistration_toolbar);
-
-        setSupportActionBar(toolbar);
+//        toolbar =  findViewById(R.id.UserRegistration_toolbar);
+//
+//        setSupportActionBar(toolbar);
 
         //Intent and shit
 
