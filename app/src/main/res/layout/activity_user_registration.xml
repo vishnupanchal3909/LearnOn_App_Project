@@ -30,6 +30,7 @@
 
     </LinearLayout>
 
+
     <TextView
         android:id="@+id/registratio"
         android:layout_width="237dp"
@@ -50,9 +51,9 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="145dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="111dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="131dp"
         android:background="@drawable/ellipise_5_in_login" />
 
     <View
@@ -62,7 +63,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="175dp"
-        android:layout_marginTop="129dp"
+        android:layout_marginTop="149dp"
         android:background="@drawable/ellipse_4_in_login" />
 
     <View
@@ -72,7 +73,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="160dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="169dp"
+        android:layout_marginTop="189dp"
         android:background="@drawable/ellipse_6_in_login" />
 
     <View
@@ -86,79 +87,98 @@
         android:layout_marginTop="215dp"
         android:background="@drawable/logo1_1_register" />
 
-    <EditText
-        android:id="@+id/rectangle_1"
-        android:layout_width="327dp"
-        android:layout_height="54dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="42dp"
-        android:layout_marginTop="248dp"
-        android:background="@drawable/rounded_edittext"
-        android:elevation="4dp"
-        android:gravity="center"
-        android:hint="@string/enter_user_"
-        android:textColor="@color/black" />
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="273dp"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        android:layout_marginEnd="20dp">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/rectangle_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/enter_user_"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="340dp"
+        app:startIconDrawable="@drawable/ic_baseline_local_phone_24"
+        android:layout_marginEnd="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/rectangle_2"
-            android:layout_width="327dp"
-            android:layout_height="54dp"
-            android:layout_marginTop="322dp"
-            android:layout_marginLeft="42dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
             android:hint="@string/enter_phone"
-            android:gravity="center"
-            android:layout_alignParentLeft="true"
-            android:textColor="@color/black"
-            android:layout_alignParentTop="true"
-            android:background="@drawable/rounded_edittext"
-            android:elevation="4dp" />
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="407dp"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        android:layout_marginEnd="20dp">
 
-        <EditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/rectangle_3"
-            android:layout_width="327dp"
-            android:layout_height="54dp"
-            android:layout_marginTop="396dp"
-            android:layout_marginLeft="42dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:hint="@string/enter_email"
-            android:gravity="center"
-            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@drawable/rounded_edittext"
-            android:elevation="4dp" />
+            android:hint="@string/enter_email"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <EditText
-        android:id="@+id/rectangle_4"
-        android:layout_width="327dp"
-        android:layout_height="54dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="42dp"
-        android:layout_marginTop="470dp"
-        android:background="@drawable/rounded_edittext"
-        android:elevation="4dp"
-        android:textColor="@color/black"
-        android:gravity="center"
-        android:hint="@string/enter_passw" />
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="474dp"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        android:layout_marginEnd="20dp">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/rectangle_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/enter_passw"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="541dp"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        android:layout_marginEnd="20dp">
 
-    <EditText
-        android:id="@+id/rectangle_7"
-        android:layout_width="327dp"
-        android:layout_height="54dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="42dp"
-        android:hint="@string/re_enter_pa"
-        android:layout_marginTop="544dp"
-        android:gravity="center"
-        android:textColor="@color/black"
-        android:background="@drawable/rounded_edittext"
-        android:elevation="4dp" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/rectangle_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/re_enter_pa"
+            android:textColor="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
 
 
     <TextView
@@ -171,9 +191,9 @@
         android:layout_marginTop="626dp"
         android:background="@drawable/rectangle_8_login_button"
         android:elevation="4dp"
-        android:textAlignment="center"
         android:gravity="center"
         android:text="@string/register_si"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />

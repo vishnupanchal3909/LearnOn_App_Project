@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_registration_selection.xml" value="0.25" />
+        <entry key="..\:/Users/Vishnu/AndroidStudioProjects/SpacECEedu/app/src/main/res/layout/activity_user_registration.xml" value="0.25" />
         <entry key="..\:/Work/SpacECE/SpacECEedu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
         <entry key="..\:/Work/SpacECE/SpacECEedu/app/src/main/res/drawable/circle.xml" value="0.2520833333333333" />
         <entry key="..\:/Work/SpacECE/SpacECEedu/app/src/main/res/drawable/ic_baseline_add_comment_24.xml" value="0.26614583333333336" />
