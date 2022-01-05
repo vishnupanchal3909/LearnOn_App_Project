@@ -50,6 +50,16 @@
     <string name="new_registr">New Registration</string>
     <string name="back">Back</string>
     <string name="skip">Skip</string>
+    <string name="spaceece">SpaceECE</string>
+    <string name="registratio">Registration Details</string>
+    <string name="enter_user_">Enter User Name</string>
+    <string name="enter_phone">Enter Phone Number</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_passw">Enter Password</string>
+    <string name="re_enter_pa">Re-Enter Password</string>
+    <string name="register_si">REGISTER / SIGNUP</string>
+
+
 
 
 </resources>
